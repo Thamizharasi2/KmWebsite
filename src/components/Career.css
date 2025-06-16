@@ -1,0 +1,85 @@
+.career-section {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+  }
+  
+  .career-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #4f46e5;
+  }
+  
+  .career-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 1rem;
+    font-weight: 600;
+  }
+  
+  .filter-select {
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .job-listings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+  
+  .job-card {
+    background-color: #f9fafb;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .job-card:hover {
+    box-shadow: 0 8px 16px rgb(79 70 229 / 0.3);
+  }
+  
+  .job-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+    color: #3730a3;
+  }
+  
+  .job-location,
+  .job-department {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+  }
+  
+  .job-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #374151;
+  }
+  
+  .apply-btn {
+    padding: 0.6rem 1.2rem;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+  }
+  
+  .apply-btn:hover {
+    background-color: #4338ca;
+  }
+  
